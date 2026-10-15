@@ -1,0 +1,4493 @@
+{
+  "model": "MacBook Pro 13-inch (2020), four Thunderbolt 3 ports",
+  "identifier": "A2251 / EMC 3348",
+  "reviewed": "2026-10-14",
+  "units": "cm",
+  "orientation": "+X right, +Y above keyboard, -Z toward hinge; these are scene coordinates, not measured placements",
+  "accuracyPolicy": "Fact confidence is independent of geometry accuracy. Tier 2 covers an exterior dimension-based approximation, not exact CAD. Tier 3 represents illustrative internals. No model-specific CAD obtained.",
+  "sources": {
+    "apple": {
+      "name": "Apple · exact four-port technical specifications",
+      "url": "https://support.apple.com/en-us/111339"
+    },
+    "lower": {
+      "name": "iFixit · lower-case replacement, steps 1–7",
+      "url": "https://www.ifixit.com/Guide/a/143615"
+    },
+    "battery": {
+      "name": "iFixit · battery replacement, steps 8–44",
+      "url": "https://www.ifixit.com/Guide/a/143618"
+    },
+    "trackpad": {
+      "name": "iFixit · trackpad replacement, steps 15–22",
+      "url": "https://www.ifixit.com/Guide/a/143617"
+    },
+    "antenna": {
+      "name": "iFixit · antenna assembly, steps 15–25",
+      "url": "https://www.ifixit.com/Guide/a/143616"
+    },
+    "ifixit": {
+      "name": "iFixit · A2251 / EMC 3348 identification",
+      "url": "https://www.ifixit.com/Device/MacBook_Pro_13%22_Four_Thunderbolt_Ports_2020"
+    }
+  },
+  "components": [
+    {
+      "id": "machine",
+      "parent": null,
+      "name": "MacBook Pro A2251",
+      "category": "System",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        30.41,
+        1.56,
+        21.24
+      ],
+      "color": "#b6b8bc",
+      "function": "A 13-inch, four-port Intel MacBook Pro. A2251 is distinct from the two-port A2289 and Apple Silicon models.",
+      "engineer": "A 13-inch Intel MacBook Pro with four Thunderbolt 3 ports, identified by the owner.",
+      "specs": "A2251 / EMC 3348 (iFixit identification). Apple: 30.41 × 21.24 × 1.56 cm, 1.4 kg; 2020 four-port Intel model.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Serial-specific processor, RAM and SSD configuration is unknown."
+    },
+    {
+      "id": "enclosure",
+      "parent": "machine",
+      "name": "Enclosure & display",
+      "category": "Assembly",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        30.4,
+        1.56,
+        21.2
+      ],
+      "color": "#a8acb3",
+      "function": "The metal enclosure supports and protects the assemblies.",
+      "engineer": "The metal enclosure supports and protects the assemblies.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "lower",
+      "parent": "enclosure",
+      "name": "Lower case",
+      "category": "Mechanical",
+      "position": [
+        0,
+        -0.62,
+        0
+      ],
+      "size": [
+        30.4,
+        0.2,
+        21.2
+      ],
+      "color": "#adb0b6",
+      "function": "A removable aluminium cover protects the underside.",
+      "engineer": "A removable aluminium cover protects the underside.",
+      "specs": "Six P5 pentalobe screws: two 6.7 mm and four 3.4 mm. Four hidden clips plus sliding hinge-side clips. Exact positions remain approximate.",
+      "confidence": "verified",
+      "geometry": "Tier 2 · dimension-based approximation",
+      "source": "apple",
+      "location": "Conceptual position 0, -0.62, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "iFixit lower-case guide steps 1–7. Preserve screw locations; slide the rear clips free. The guide notes some photos come from another model.",
+      "missing": "Overall width/depth anchored to Apple dimensions; corner radii, thickness distribution, fit and cutouts approximate."
+    },
+    {
+      "id": "upper",
+      "parent": "enclosure",
+      "name": "Upper case",
+      "category": "Mechanical",
+      "position": [
+        0,
+        0.38,
+        0
+      ],
+      "size": [
+        30.4,
+        0.25,
+        21.2
+      ],
+      "color": "#b7bbc1",
+      "function": "The palm rest and keyboard deck support the input devices.",
+      "engineer": "The palm rest and keyboard deck support the input devices.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 2 · dimension-based approximation",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.38, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Overall width/depth anchored to Apple dimensions; corner radii, thickness distribution, fit and cutouts approximate."
+    },
+    {
+      "id": "lid",
+      "parent": "enclosure",
+      "name": "Display enclosure",
+      "category": "Display",
+      "position": [
+        0,
+        0.9,
+        0
+      ],
+      "size": [
+        30.4,
+        0.35,
+        21.2
+      ],
+      "color": "#a9adb5",
+      "function": "The lid supports the display and its associated wiring.",
+      "engineer": "The lid supports the display and its associated wiring.",
+      "specs": "13-inch class; panel and lid stack thickness unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 2 · dimension-based approximation",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.9, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Overall width/depth anchored to Apple dimensions; corner radii, thickness distribution, fit and cutouts approximate."
+    },
+    {
+      "id": "panel",
+      "parent": "lid",
+      "name": "Retina display panel",
+      "category": "Display",
+      "position": [
+        0,
+        0.78,
+        0
+      ],
+      "size": [
+        28.4,
+        0.06,
+        18.5
+      ],
+      "color": "#111820",
+      "function": "Turns electrical image data into visible light.",
+      "engineer": "A display combines a pixel matrix, optical films, backlight and drive electronics. Their exact A2251 stack is not reconstructed.",
+      "specs": "13.3-inch IPS LED-backlit Retina display; 2560 × 1600 at 227 ppi; 500 nits; P3; True Tone. Optical layer geometry remains unmodeled.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.78, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "camera",
+      "parent": "lid",
+      "name": "Camera assembly",
+      "category": "Sensor",
+      "position": [
+        0,
+        0.74,
+        9.65
+      ],
+      "size": [
+        0.45,
+        0.07,
+        0.22
+      ],
+      "color": "#182833",
+      "function": "Captures images above the display.",
+      "engineer": "Captures images above the display.",
+      "specs": "720p FaceTime HD camera. Sensor package identity unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.74, 9.65; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Sensor identity and display flex routing unknown."
+    },
+    {
+      "id": "hinge-left",
+      "parent": "enclosure",
+      "name": "Left hinge",
+      "category": "Mechanical",
+      "position": [
+        -10,
+        0.2,
+        -9.6
+      ],
+      "size": [
+        3,
+        0.5,
+        0.75
+      ],
+      "color": "#737880",
+      "function": "Maintains the display angle.",
+      "engineer": "Maintains the display angle.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -10, 0.2, -9.6; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "hinge-right",
+      "parent": "enclosure",
+      "name": "Right hinge",
+      "category": "Mechanical",
+      "position": [
+        10,
+        0.2,
+        -9.6
+      ],
+      "size": [
+        3,
+        0.5,
+        0.75
+      ],
+      "color": "#737880",
+      "function": "Maintains the display angle.",
+      "engineer": "Maintains the display angle.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 10, 0.2, -9.6; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "inputs",
+      "parent": "machine",
+      "name": "Keyboard & trackpad",
+      "category": "Assembly",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "size": [
+        24,
+        0.2,
+        18
+      ],
+      "color": "#34373c",
+      "function": "Input assemblies translate touch and keystrokes into signals.",
+      "engineer": "Input assemblies translate touch and keystrokes into signals.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0.5, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "keyboard",
+      "parent": "inputs",
+      "name": "Magic Keyboard",
+      "category": "Input",
+      "position": [
+        0,
+        0.57,
+        -2.4
+      ],
+      "size": [
+        23,
+        0.15,
+        8.4
+      ],
+      "color": "#202226",
+      "function": "Individual keys provide tactile input.",
+      "engineer": "Individual keys provide tactile input.",
+      "specs": "Backlit Magic Keyboard: 65 U.S. or 66 ISO keys; inverted-T arrows. iFixit confirms scissor mechanism. The displayed key layout is a selectable proxy.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.57, -2.4; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Key mechanisms are represented conceptually, not a measured reconstruction."
+    },
+    {
+      "id": "key-mechanism",
+      "parent": "keyboard",
+      "name": "Scissor mechanism proxy",
+      "category": "Mechanical",
+      "position": [
+        0,
+        0.6,
+        -2.4
+      ],
+      "size": [
+        0.9,
+        0.1,
+        0.9
+      ],
+      "color": "#72767b",
+      "function": "A crossing linkage guides a keycap during travel.",
+      "engineer": "A crossing linkage guides a keycap during travel.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0.6, -2.4; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "No model-specific mechanism geometry or travel measurements."
+    },
+    {
+      "id": "touchbar",
+      "parent": "inputs",
+      "name": "Touch Bar",
+      "category": "Input",
+      "position": [
+        0,
+        0.58,
+        -7.25
+      ],
+      "size": [
+        21,
+        0.08,
+        0.65
+      ],
+      "color": "#12161b",
+      "function": "A touch-sensitive display provides contextual controls.",
+      "engineer": "A touch-sensitive display provides contextual controls.",
+      "specs": "Touch Bar, separate physical Escape key and Touch ID button; regional dimensions unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.58, -7.25; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "touchid",
+      "parent": "inputs",
+      "name": "Touch ID / power button",
+      "category": "Input",
+      "position": [
+        11.3,
+        0.58,
+        -7.25
+      ],
+      "size": [
+        0.9,
+        0.08,
+        0.7
+      ],
+      "color": "#181b20",
+      "function": "Provides power-button input and fingerprint authentication.",
+      "engineer": "Provides power-button input and fingerprint authentication.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 11.3, 0.58, -7.25; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Sensor package and exact secure data connections not identified."
+    },
+    {
+      "id": "trackpad",
+      "parent": "inputs",
+      "name": "Force Touch trackpad",
+      "category": "Input",
+      "position": [
+        0,
+        0.58,
+        6
+      ],
+      "size": [
+        12.8,
+        0.1,
+        6.9
+      ],
+      "color": "#a3a8af",
+      "function": "Detects pointing gestures and presents tactile feedback.",
+      "engineer": "Capacitive sensing tracks contact. Force sensing and a haptic actuator support click feedback; the mechanism is not geometrically reconstructed.",
+      "specs": "Force Touch (Apple). Guide: 10 mounting screws, two 4.3 mm and eight 5.8 mm; six washers (two circular, four rectangular).",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "trackpad",
+      "location": "Conceptual position 0, 0.58, 6; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Guide steps 8–14 disconnect battery data and power before trackpad work. Steps 15–22 cover bracket, cable and trackpad. Use the complete linked guide."
+    },
+    {
+      "id": "cooling",
+      "parent": "machine",
+      "name": "Thermal system",
+      "category": "Assembly",
+      "position": [
+        0,
+        0,
+        -5
+      ],
+      "size": [
+        25,
+        0.8,
+        7
+      ],
+      "color": "#363d43",
+      "function": "Transfers processor heat to the environment.",
+      "engineer": "Transfers processor heat to the environment.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0, -5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "fan-left",
+      "parent": "cooling",
+      "name": "Left fan",
+      "category": "Cooling",
+      "position": [
+        -10.4,
+        -0.03,
+        -5.9
+      ],
+      "size": [
+        4.7,
+        0.65,
+        4.7
+      ],
+      "color": "#373f46",
+      "function": "Moves air across the cooling assembly.",
+      "engineer": "Moves air across the cooling assembly.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -10.4, -0.03, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "fan",
+      "missing": "Two fans appear in guide photos, which may include another model. Blade count, handedness, RPM and duct geometry unverified."
+    },
+    {
+      "id": "fan-right",
+      "parent": "cooling",
+      "name": "Right fan",
+      "category": "Cooling",
+      "position": [
+        10.4,
+        -0.03,
+        -5.9
+      ],
+      "size": [
+        4.7,
+        0.65,
+        4.7
+      ],
+      "color": "#373f46",
+      "function": "Moves air across the cooling assembly.",
+      "engineer": "Moves air across the cooling assembly.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 10.4, -0.03, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "fan",
+      "missing": "Two fans are visible in the A2251 guide imagery; some guide photos may depict other models. Exact geometry remains illustrative."
+    },
+    {
+      "id": "heatpipe",
+      "parent": "cooling",
+      "name": "Heat-transfer assembly",
+      "category": "Cooling",
+      "position": [
+        0,
+        0.21,
+        -7.4
+      ],
+      "size": [
+        17,
+        0.22,
+        0.9
+      ],
+      "color": "#343a3b",
+      "function": "Transfers heat toward the finned cooling regions.",
+      "engineer": "A heat pipe transfers energy through evaporation and condensation of a working fluid. This bar is a conceptual path, not actual pipe routing.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "antenna",
+      "location": "Conceptual position 0, 0.21, -7.4; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "A heat pipe is named in guide steps 24–25; exact routing, contact plates and fin geometry unverified."
+    },
+    {
+      "id": "tim",
+      "parent": "cooling",
+      "name": "Thermal interface proxy",
+      "category": "Cooling",
+      "position": [
+        0,
+        0.12,
+        -5.7
+      ],
+      "size": [
+        2.6,
+        0.04,
+        2.2
+      ],
+      "color": "#8a8d8a",
+      "function": "Reduces contact resistance between a processor package and thermal assembly.",
+      "engineer": "Reduces contact resistance between a processor package and thermal assembly.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0.12, -5.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "logic",
+      "parent": "machine",
+      "name": "Logic board",
+      "category": "Assembly",
+      "position": [
+        0,
+        -0.17,
+        -5.5
+      ],
+      "size": [
+        19,
+        0.18,
+        7
+      ],
+      "color": "#252e30",
+      "function": "Connects processing, memory, storage and peripheral circuits.",
+      "engineer": "Connects processing, memory, storage and peripheral circuits.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, -0.17, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "board",
+      "missing": "Board outline, revision, layer stack and all package placements are illustrative."
+    },
+    {
+      "id": "cpu",
+      "parent": "logic",
+      "name": "Intel processor / integrated GPU",
+      "category": "Semiconductor",
+      "position": [
+        0,
+        0.04,
+        -5.7
+      ],
+      "size": [
+        2.6,
+        0.25,
+        2.2
+      ],
+      "color": "#b2b7be",
+      "function": "Runs instructions and produces graphics.",
+      "engineer": "The CPU executes general-purpose instructions. An integrated GPU shares the system memory architecture. Package contacts and internal silicon layout are not modeled.",
+      "specs": "2.0 GHz quad-core 10th-gen Core i5 (Turbo 3.8 GHz, 6 MB L3), or 2.3 GHz Core i7 (Turbo 4.1 GHz, 8 MB L3); Intel Iris Plus graphics. Owner configuration unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, 0.04, -5.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "memory",
+      "parent": "logic",
+      "name": "Memory package group",
+      "category": "Semiconductor",
+      "position": [
+        -4.2,
+        0.01,
+        -5.3
+      ],
+      "size": [
+        3.3,
+        0.25,
+        2.7
+      ],
+      "color": "#20262b",
+      "function": "Stores the working data used by the processor.",
+      "engineer": "Volatile memory holds active code and data. Placement, bus routing and individual package count have not been verified.",
+      "specs": "16 GB 3733 MHz LPDDR4X onboard memory; configurable to 32 GB. Package count, identity and placement unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position -4.2, 0.01, -5.3; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "storage",
+      "parent": "logic",
+      "name": "Flash storage package group",
+      "category": "Semiconductor",
+      "position": [
+        4.3,
+        0.01,
+        -5.3
+      ],
+      "size": [
+        3.4,
+        0.25,
+        2.7
+      ],
+      "color": "#22282c",
+      "function": "Retains files when the machine is powered off.",
+      "engineer": "NAND flash stores charge to encode data. Controller identity, package count and capacity require board-specific evidence.",
+      "specs": "512 GB or 1 TB base SSD configurations; up to 4 TB. Flash and controller package identities and placement unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 4.3, 0.01, -5.3; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "power-ic",
+      "parent": "logic",
+      "name": "Power-management region",
+      "category": "Electronics",
+      "position": [
+        -5,
+        0.01,
+        -8
+      ],
+      "size": [
+        2.4,
+        0.22,
+        0.9
+      ],
+      "color": "#313638",
+      "function": "Converts and sequences supply rails.",
+      "engineer": "Converts and sequences supply rails.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5, 0.01, -8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "IC identities and electrical topology unknown."
+    },
+    {
+      "id": "thunderbolt",
+      "parent": "logic",
+      "name": "Thunderbolt controller region",
+      "category": "Electronics",
+      "position": [
+        5,
+        0.01,
+        -8
+      ],
+      "size": [
+        2.4,
+        0.22,
+        0.9
+      ],
+      "color": "#313638",
+      "function": "Connects external high-speed peripherals.",
+      "engineer": "Connects external high-speed peripherals.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5, 0.01, -8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Controller identities, counts and placement unknown."
+    },
+    {
+      "id": "wireless",
+      "parent": "logic",
+      "name": "Wireless subsystem proxy",
+      "category": "Electronics",
+      "position": [
+        7,
+        0.01,
+        -3.2
+      ],
+      "size": [
+        1.6,
+        0.22,
+        1
+      ],
+      "color": "#9b9f9d",
+      "function": "Provides wireless communication.",
+      "engineer": "Provides wireless communication.",
+      "specs": "802.11ac Wi-Fi (a/b/g/n compatible), Bluetooth 5.0. Package identity and placement unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 7, 0.01, -3.2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Radio package, antenna feed routing and location unknown."
+    },
+    {
+      "id": "passives",
+      "parent": "logic",
+      "name": "Passive components proxy",
+      "category": "Electronics",
+      "position": [
+        -7,
+        0.01,
+        -3.2
+      ],
+      "size": [
+        1.8,
+        0.2,
+        1
+      ],
+      "color": "#826e4a",
+      "function": "Capacitors and inductors help filter, store and regulate electrical energy.",
+      "engineer": "Capacitors and inductors help filter, store and regulate electrical energy.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -7, 0.01, -3.2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "No claim to an exhaustive board population or component values."
+    },
+    {
+      "id": "power",
+      "parent": "machine",
+      "name": "Battery & power",
+      "category": "Assembly",
+      "position": [
+        0,
+        -0.15,
+        3.8
+      ],
+      "size": [
+        23,
+        0.65,
+        11
+      ],
+      "color": "#33353a",
+      "function": "Stores energy and supplies portable operation.",
+      "engineer": "Stores energy and supplies portable operation.",
+      "specs": "58.0 Wh built-in lithium-polymer battery; 61 W USB-C adapter. Electrical cell topology remains unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 0, -0.15, 3.8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "battery-1",
+      "parent": "power",
+      "name": "Battery pouch region 1",
+      "category": "Battery",
+      "position": [
+        -10,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        2.75,
+        0.65,
+        9.7
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "battery-2",
+      "parent": "power",
+      "name": "Battery pouch region 2",
+      "category": "Battery",
+      "position": [
+        -6.8,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        2.75,
+        0.65,
+        9.7
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -6.8, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "battery-3",
+      "parent": "power",
+      "name": "Battery pouch region 3",
+      "category": "Battery",
+      "position": [
+        -2.6,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        4.85,
+        0.65,
+        10.8
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -2.6, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "battery-4",
+      "parent": "power",
+      "name": "Battery pouch region 4",
+      "category": "Battery",
+      "position": [
+        2.6,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        4.85,
+        0.65,
+        10.8
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 2.6, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "battery-5",
+      "parent": "power",
+      "name": "Battery pouch region 5",
+      "category": "Battery",
+      "position": [
+        6.8,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        2.75,
+        0.65,
+        9.7
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 6.8, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "battery-6",
+      "parent": "power",
+      "name": "Battery pouch region 6",
+      "category": "Battery",
+      "position": [
+        10,
+        -0.15,
+        3.7
+      ],
+      "size": [
+        2.75,
+        0.65,
+        9.7
+      ],
+      "color": "#34383c",
+      "function": "Stores chemical energy for portable operation.",
+      "engineer": "Lithium-ion chemistry stores energy by reversible ion transfer. Visible pouch divisions are not enough to establish the series/parallel electrical topology.",
+      "specs": "Part of a verified 58.0 Wh pack. Six visible regions follow guide imagery; electrical cell topology remains unverified.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10, -0.15, 3.7; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Follow the full battery guide. Cells are adhered; puncture or deformation can cause fire.",
+      "shape": "cell",
+      "missing": "The guide warns some photos are from other models. Pouch dimensions are estimated, not measured."
+    },
+    {
+      "id": "bms",
+      "parent": "power",
+      "name": "Battery board",
+      "category": "Electronics",
+      "position": [
+        0,
+        -0.05,
+        -2.5
+      ],
+      "size": [
+        4,
+        0.2,
+        0.7
+      ],
+      "color": "#315f4b",
+      "function": "Monitors and controls battery operation.",
+      "engineer": "Monitors and controls battery operation.",
+      "specs": "Battery board has data and power connections. Guide specifies two 3.2 mm T5 board screws and one 3.7 mm T5 power-connector screw.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 0, -0.05, -2.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Board IC identities, topology and geometry unknown."
+    },
+    {
+      "id": "peripherals",
+      "parent": "machine",
+      "name": "Audio, ports & hardware",
+      "category": "Assembly",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        30,
+        0.8,
+        20
+      ],
+      "color": "#4a5055",
+      "function": "Connects the computer to people and external devices.",
+      "engineer": "Connects the computer to people and external devices.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "speaker-left",
+      "parent": "peripherals",
+      "name": "Left speaker",
+      "category": "Audio",
+      "position": [
+        -13,
+        -0.1,
+        2
+      ],
+      "size": [
+        2.7,
+        0.6,
+        9.5
+      ],
+      "color": "#30383d",
+      "function": "Converts electrical signals into sound.",
+      "engineer": "Converts electrical signals into sound.",
+      "specs": "Apple confirms stereo speakers. iFixit battery guide steps 25–27 place glued speakers either side of the battery.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -13, -0.1, 2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Internal chambers and driver dimensions not reconstructed."
+    },
+    {
+      "id": "speaker-right",
+      "parent": "peripherals",
+      "name": "Right speaker",
+      "category": "Audio",
+      "position": [
+        13,
+        -0.1,
+        2
+      ],
+      "size": [
+        2.7,
+        0.6,
+        9.5
+      ],
+      "color": "#30383d",
+      "function": "Converts electrical signals into sound.",
+      "engineer": "Converts electrical signals into sound.",
+      "specs": "Stereo speaker; glued into the enclosure alongside the battery.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 13, -0.1, 2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "port-left-1",
+      "parent": "peripherals",
+      "name": "Left Thunderbolt 3 port 1",
+      "category": "Connector",
+      "position": [
+        -15.13,
+        0.06,
+        -5.1
+      ],
+      "size": [
+        0.18,
+        0.34,
+        1.05
+      ],
+      "color": "#161d24",
+      "function": "Carries compatible power, display and peripheral signals.",
+      "engineer": "Carries compatible power, display and peripheral signals.",
+      "specs": "Thunderbolt 3 up to 40 Gb/s; USB 3.1 Gen 2 up to 10 Gb/s; charging and DisplayPort (Apple).",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position -15.13, 0.06, -5.1; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "port"
+    },
+    {
+      "id": "port-left-2",
+      "parent": "peripherals",
+      "name": "Left Thunderbolt 3 port 2",
+      "category": "Connector",
+      "position": [
+        -15.13,
+        0.06,
+        -7.1
+      ],
+      "size": [
+        0.18,
+        0.34,
+        1.05
+      ],
+      "color": "#161d24",
+      "function": "Carries compatible power, display and peripheral signals.",
+      "engineer": "Carries compatible power, display and peripheral signals.",
+      "specs": "Thunderbolt 3 up to 40 Gb/s; USB 3.1 Gen 2 up to 10 Gb/s; charging and DisplayPort (Apple).",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position -15.13, 0.06, -7.1; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "port"
+    },
+    {
+      "id": "port-right-1",
+      "parent": "peripherals",
+      "name": "Right Thunderbolt 3 port 1",
+      "category": "Connector",
+      "position": [
+        15.13,
+        0.06,
+        -5.1
+      ],
+      "size": [
+        0.18,
+        0.34,
+        1.05
+      ],
+      "color": "#161d24",
+      "function": "Carries compatible power, display and peripheral signals.",
+      "engineer": "Carries compatible power, display and peripheral signals.",
+      "specs": "Thunderbolt 3 up to 40 Gb/s; USB 3.1 Gen 2 up to 10 Gb/s; charging and DisplayPort (Apple).",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 15.13, 0.06, -5.1; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "port"
+    },
+    {
+      "id": "port-right-2",
+      "parent": "peripherals",
+      "name": "Right Thunderbolt 3 port 2",
+      "category": "Connector",
+      "position": [
+        15.13,
+        0.06,
+        -7.1
+      ],
+      "size": [
+        0.18,
+        0.34,
+        1.05
+      ],
+      "color": "#161d24",
+      "function": "Carries compatible power, display and peripheral signals.",
+      "engineer": "Carries compatible power, display and peripheral signals.",
+      "specs": "Thunderbolt 3 up to 40 Gb/s; USB 3.1 Gen 2 up to 10 Gb/s; charging and DisplayPort (Apple).",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 15.13, 0.06, -7.1; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "port"
+    },
+    {
+      "id": "audio-jack",
+      "parent": "peripherals",
+      "name": "Headphone jack",
+      "category": "Connector",
+      "position": [
+        15.13,
+        0.06,
+        6.5
+      ],
+      "size": [
+        0.18,
+        0.35,
+        0.35
+      ],
+      "color": "#161d24",
+      "function": "Connects a wired audio device.",
+      "engineer": "Connects a wired audio device.",
+      "specs": "3.5 mm headphone jack.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 15.13, 0.06, 6.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "microphones",
+      "parent": "peripherals",
+      "name": "Three-microphone array proxy",
+      "category": "Audio",
+      "position": [
+        -12,
+        0.62,
+        -0.8
+      ],
+      "size": [
+        0.25,
+        0.08,
+        1.3
+      ],
+      "color": "#20262a",
+      "function": "Converts sound pressure into electrical signals.",
+      "engineer": "Converts sound pressure into electrical signals.",
+      "specs": "Three-mic array with directional beamforming. Individual microphone positions unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position -12, 0.62, -0.8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Capsule package identities and positions not verified."
+    },
+    {
+      "id": "antenna",
+      "parent": "peripherals",
+      "name": "Antenna bar assembly",
+      "category": "Radio",
+      "position": [
+        0,
+        -0.1,
+        -10
+      ],
+      "size": [
+        17,
+        0.2,
+        0.35
+      ],
+      "color": "#22272e",
+      "function": "Couples radio signals between circuits and free space.",
+      "engineer": "Couples radio signals between circuits and free space.",
+      "specs": "Three coaxial connections to the logic board. Cable bundle passes under the heat pipe. Internal radiating-element shapes unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "antenna",
+      "location": "Conceptual position 0, -0.1, -10; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Element shapes and routing unknown."
+    },
+    {
+      "id": "flex",
+      "parent": "peripherals",
+      "name": "Trackpad ribbon cable",
+      "category": "Connector",
+      "position": [
+        0,
+        -0.37,
+        0
+      ],
+      "size": [
+        1.1,
+        0.05,
+        4
+      ],
+      "color": "#aa7942",
+      "function": "Carries signals between the trackpad and board.",
+      "engineer": "Carries signals between the trackpad and board.",
+      "specs": "Trackpad cable is adhered over the battery; two 1.8 mm T3 screws retain its connector bracket. Route is an approximate proxy.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "trackpad",
+      "location": "Conceptual position 0, -0.37, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Actual fold geometry, route and connector pins unknown."
+    },
+    {
+      "id": "foot--1--1",
+      "parent": "lower",
+      "name": "Rubber foot",
+      "category": "Mechanical",
+      "position": [
+        -12,
+        -0.82,
+        -8
+      ],
+      "size": [
+        1.6,
+        0.2,
+        1.6
+      ],
+      "color": "#282d32",
+      "function": "Supports the enclosure on a surface.",
+      "engineer": "Supports the enclosure on a surface.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -12, -0.82, -8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "foot--1-1",
+      "parent": "lower",
+      "name": "Rubber foot",
+      "category": "Mechanical",
+      "position": [
+        -12,
+        -0.82,
+        8
+      ],
+      "size": [
+        1.6,
+        0.2,
+        1.6
+      ],
+      "color": "#282d32",
+      "function": "Supports the enclosure on a surface.",
+      "engineer": "Supports the enclosure on a surface.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -12, -0.82, 8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "foot-1--1",
+      "parent": "lower",
+      "name": "Rubber foot",
+      "category": "Mechanical",
+      "position": [
+        12,
+        -0.82,
+        -8
+      ],
+      "size": [
+        1.6,
+        0.2,
+        1.6
+      ],
+      "color": "#282d32",
+      "function": "Supports the enclosure on a surface.",
+      "engineer": "Supports the enclosure on a surface.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 12, -0.82, -8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "foot-1-1",
+      "parent": "lower",
+      "name": "Rubber foot",
+      "category": "Mechanical",
+      "position": [
+        12,
+        -0.82,
+        8
+      ],
+      "size": [
+        1.6,
+        0.2,
+        1.6
+      ],
+      "color": "#282d32",
+      "function": "Supports the enclosure on a surface.",
+      "engineer": "Supports the enclosure on a surface.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "reference-pending",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 12, -0.82, 8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "screw--1--1",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        -14,
+        -0.76,
+        -9
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position -14, -0.76, -9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "screw--1-0",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        -14,
+        -0.76,
+        0
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position -14, -0.76, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "screw--1-1",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        -14,
+        -0.76,
+        9
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position -14, -0.76, 9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "screw-1--1",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        14,
+        -0.76,
+        -9
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position 14, -0.76, -9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "screw-1-0",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        14,
+        -0.76,
+        0
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position 14, -0.76, 0; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "screw-1-1",
+      "parent": "lower",
+      "name": "Lower-case fastener proxy",
+      "category": "Fastener",
+      "position": [
+        14,
+        -0.76,
+        9
+      ],
+      "size": [
+        0.24,
+        0.12,
+        0.24
+      ],
+      "color": "#85898c",
+      "function": "Secures a cover to the enclosure.",
+      "engineer": "Secures a cover to the enclosure.",
+      "specs": "Six lower-case fasteners verified: 2 × 6.7 mm and 4 × 3.4 mm P5. Mapping to these proxy positions is unverified.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "lower",
+      "location": "Conceptual position 14, -0.76, 9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Count, thread, lengths and positions unverified."
+    },
+    {
+      "id": "key-0-0",
+      "parent": "keyboard",
+      "name": "ESC key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -9.685,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -9.685, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-1",
+      "parent": "keyboard",
+      "name": "1 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -8.195,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -8.195, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-2",
+      "parent": "keyboard",
+      "name": "2 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -6.705,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -6.705, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-3",
+      "parent": "keyboard",
+      "name": "3 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -5.215,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5.215, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-4",
+      "parent": "keyboard",
+      "name": "4 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -3.725,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -3.725, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-5",
+      "parent": "keyboard",
+      "name": "5 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -2.235,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -2.235, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-6",
+      "parent": "keyboard",
+      "name": "6 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -0.745,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -0.745, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-7",
+      "parent": "keyboard",
+      "name": "7 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        0.745,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0.745, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-8",
+      "parent": "keyboard",
+      "name": "8 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        2.235,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 2.235, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-9",
+      "parent": "keyboard",
+      "name": "9 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        3.725,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 3.725, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-10",
+      "parent": "keyboard",
+      "name": "0 key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        5.215,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5.215, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-11",
+      "parent": "keyboard",
+      "name": "− key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        6.705,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 6.705, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-12",
+      "parent": "keyboard",
+      "name": "= key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        8.195,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 8.195, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-0-13",
+      "parent": "keyboard",
+      "name": "⌫ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        9.685,
+        0.72,
+        -5.5
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 9.685, 0.72, -5.5; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-0",
+      "parent": "keyboard",
+      "name": "TAB key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -9.685,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -9.685, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-1",
+      "parent": "keyboard",
+      "name": "Q key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -8.195,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -8.195, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-2",
+      "parent": "keyboard",
+      "name": "W key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -6.705,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -6.705, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-3",
+      "parent": "keyboard",
+      "name": "E key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -5.215,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5.215, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-4",
+      "parent": "keyboard",
+      "name": "R key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -3.725,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -3.725, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-5",
+      "parent": "keyboard",
+      "name": "T key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -2.235,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -2.235, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-6",
+      "parent": "keyboard",
+      "name": "Y key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -0.745,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -0.745, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-7",
+      "parent": "keyboard",
+      "name": "U key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        0.745,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0.745, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-8",
+      "parent": "keyboard",
+      "name": "I key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        2.235,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 2.235, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-9",
+      "parent": "keyboard",
+      "name": "O key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        3.725,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 3.725, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-10",
+      "parent": "keyboard",
+      "name": "P key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        5.215,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5.215, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-11",
+      "parent": "keyboard",
+      "name": "[ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        6.705,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 6.705, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-12",
+      "parent": "keyboard",
+      "name": "] key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        8.195,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 8.195, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-1-13",
+      "parent": "keyboard",
+      "name": "\\ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        9.685,
+        0.72,
+        -4.01
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 9.685, 0.72, -4.01; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-0",
+      "parent": "keyboard",
+      "name": "CAPS key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -8.94,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -8.94, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-1",
+      "parent": "keyboard",
+      "name": "A key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -7.45,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -7.45, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-2",
+      "parent": "keyboard",
+      "name": "S key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -5.96,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5.96, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-3",
+      "parent": "keyboard",
+      "name": "D key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -4.47,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -4.47, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-4",
+      "parent": "keyboard",
+      "name": "F key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -2.98,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -2.98, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-5",
+      "parent": "keyboard",
+      "name": "G key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -1.49,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -1.49, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-6",
+      "parent": "keyboard",
+      "name": "H key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        0,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-7",
+      "parent": "keyboard",
+      "name": "J key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        1.49,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 1.49, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-8",
+      "parent": "keyboard",
+      "name": "K key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        2.98,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 2.98, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-9",
+      "parent": "keyboard",
+      "name": "L key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        4.47,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 4.47, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-10",
+      "parent": "keyboard",
+      "name": "; key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        5.96,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5.96, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-11",
+      "parent": "keyboard",
+      "name": "' key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        7.45,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 7.45, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-2-12",
+      "parent": "keyboard",
+      "name": "ENTER key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        8.94,
+        0.72,
+        -2.52
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 8.94, 0.72, -2.52; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-0",
+      "parent": "keyboard",
+      "name": "SHIFT key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -8.195,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -8.195, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-1",
+      "parent": "keyboard",
+      "name": "Z key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -6.705,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -6.705, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-2",
+      "parent": "keyboard",
+      "name": "X key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -5.215,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5.215, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-3",
+      "parent": "keyboard",
+      "name": "C key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -3.725,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -3.725, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-4",
+      "parent": "keyboard",
+      "name": "V key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -2.235,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -2.235, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-5",
+      "parent": "keyboard",
+      "name": "B key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -0.745,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -0.745, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-6",
+      "parent": "keyboard",
+      "name": "N key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        0.745,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0.745, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-7",
+      "parent": "keyboard",
+      "name": "M key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        2.235,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 2.235, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-8",
+      "parent": "keyboard",
+      "name": ", key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        3.725,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 3.725, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-9",
+      "parent": "keyboard",
+      "name": ". key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        5.215,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5.215, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-10",
+      "parent": "keyboard",
+      "name": "/ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        6.705,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 6.705, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-3-11",
+      "parent": "keyboard",
+      "name": "SHIFT key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        8.195,
+        0.72,
+        -1.0300000000000002
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 8.195, 0.72, -1.0300000000000002; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-0",
+      "parent": "keyboard",
+      "name": "FN key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -7.45,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -7.45, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-1",
+      "parent": "keyboard",
+      "name": "CTRL key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -5.96,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -5.96, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-2",
+      "parent": "keyboard",
+      "name": "OPT key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -4.47,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -4.47, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-3",
+      "parent": "keyboard",
+      "name": "CMD key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -2.98,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -2.98, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-4",
+      "parent": "keyboard",
+      "name": "SPACE key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        -1.49,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -1.49, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-5",
+      "parent": "keyboard",
+      "name": "CMD key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        0,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 0, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-6",
+      "parent": "keyboard",
+      "name": "OPT key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        1.49,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 1.49, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-7",
+      "parent": "keyboard",
+      "name": "← key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        2.98,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 2.98, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-8",
+      "parent": "keyboard",
+      "name": "↑ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        4.47,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 4.47, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-9",
+      "parent": "keyboard",
+      "name": "↓ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        5.96,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 5.96, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "key-4-10",
+      "parent": "keyboard",
+      "name": "→ key (layout proxy)",
+      "category": "Keycap",
+      "position": [
+        7.45,
+        0.72,
+        0.45999999999999996
+      ],
+      "size": [
+        1.34,
+        0.14,
+        1.29
+      ],
+      "color": "#242930",
+      "function": "A keycap transfers finger force to its underlying mechanism.",
+      "engineer": "A keycap transfers finger force to its underlying mechanism.",
+      "specs": "Generic key spacing and regional layout; not verified A2251 key geometry.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 7.45, 0.72, 0.45999999999999996; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "key"
+    },
+    {
+      "id": "battery-data",
+      "parent": "bms",
+      "name": "Battery data ribbon",
+      "category": "Connector",
+      "position": [
+        1,
+        -0.05,
+        -2
+      ],
+      "size": [
+        0.6,
+        0.1,
+        1.2
+      ],
+      "color": "#b48243",
+      "function": "Carries battery management data.",
+      "engineer": "Carries battery management data.",
+      "specs": "Guide steps 9–12 describe locking-tab connector and data cable. Pinout and placement approximate.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 1, -0.05, -2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "battery-power",
+      "parent": "bms",
+      "name": "Battery power connector",
+      "category": "Connector",
+      "position": [
+        -1,
+        -0.05,
+        -2
+      ],
+      "size": [
+        0.7,
+        0.15,
+        1
+      ],
+      "color": "#aeafa5",
+      "function": "Connects battery power to the system.",
+      "engineer": "Connects battery power to the system.",
+      "specs": "Guide steps 13–14: 3.7 mm T5 pancake screw and lift-to-disconnect connector.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -1, -0.05, -2; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "trackpad-bracket",
+      "parent": "flex",
+      "name": "Trackpad connector bracket",
+      "category": "Mechanical",
+      "position": [
+        0,
+        -0.15,
+        -1
+      ],
+      "size": [
+        1.6,
+        0.1,
+        0.6
+      ],
+      "color": "#9eaaa7",
+      "function": "Retains the trackpad cable connector.",
+      "engineer": "Retains the trackpad cable connector.",
+      "specs": "Two 1.8 mm T3 screws retain the bracket; dimensions and position approximate.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "trackpad",
+      "location": "Conceptual position 0, -0.15, -1; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "ambient-light",
+      "parent": "lid",
+      "name": "Ambient light sensor proxy",
+      "category": "Sensor",
+      "position": [
+        1,
+        0.74,
+        9.65
+      ],
+      "size": [
+        0.22,
+        0.06,
+        0.15
+      ],
+      "color": "#1e2c2d",
+      "function": "Senses ambient illumination.",
+      "engineer": "Senses ambient illumination.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "apple",
+      "location": "Conceptual position 1, 0.74, 9.65; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Sensor location and package identity unknown."
+    },
+    {
+      "id": "fin-left",
+      "parent": "cooling",
+      "name": "Left fin-stack proxy",
+      "category": "Cooling",
+      "position": [
+        -10,
+        0.03,
+        -8.8
+      ],
+      "size": [
+        4,
+        0.5,
+        1
+      ],
+      "color": "#5b6264",
+      "function": "Increases surface area for heat exchange.",
+      "engineer": "Increases surface area for heat exchange.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position -10, 0.03, -8.8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Fin dimensions, count and duct routing unknown."
+    },
+    {
+      "id": "fin-right",
+      "parent": "cooling",
+      "name": "Right fin-stack proxy",
+      "category": "Cooling",
+      "position": [
+        10,
+        0.03,
+        -8.8
+      ],
+      "size": [
+        4,
+        0.5,
+        1
+      ],
+      "color": "#5b6264",
+      "function": "Increases surface area for heat exchange.",
+      "engineer": "Increases surface area for heat exchange.",
+      "specs": "Exact dimensions and part identity pending source inspection.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "ifixit",
+      "location": "Conceptual position 10, 0.03, -8.8; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "missing": "Fin dimensions, count and duct routing unknown."
+    },
+    {
+      "id": "display-flex",
+      "parent": "peripherals",
+      "name": "Display board flex connector",
+      "category": "Connector",
+      "position": [
+        0,
+        0.04,
+        -9.6
+      ],
+      "size": [
+        1.5,
+        0.1,
+        0.5
+      ],
+      "color": "#b48a49",
+      "function": "Connects display electronics.",
+      "engineer": "Connects display electronics.",
+      "specs": "Guide steps 16–19 identify display cable covers and display-board flex connections. Exact signals are unknown.",
+      "confidence": "verified",
+      "geometry": "Tier 3 · illustrative",
+      "source": "antenna",
+      "location": "Conceptual position 0, 0.04, -9.6; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure."
+    },
+    {
+      "id": "fan-left-blade-0",
+      "parent": "fan-left",
+      "name": "Blade proxy 1",
+      "category": "Fan blade",
+      "position": [
+        -9.1,
+        0.3,
+        -5.9
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.1, 0.3, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-1",
+      "parent": "fan-left",
+      "name": "Blade proxy 2",
+      "category": "Fan blade",
+      "position": [
+        -9.152659134301153,
+        0.3,
+        -5.533747676106142
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.152659134301153, 0.3, -5.533747676106142; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-2",
+      "parent": "fan-left",
+      "name": "Blade proxy 3",
+      "category": "Fan blade",
+      "position": [
+        -9.306370407319465,
+        0.3,
+        -5.197166937307723
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.306370407319465, 0.3, -5.197166937307723; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-3",
+      "parent": "fan-left",
+      "name": "Blade proxy 4",
+      "category": "Fan blade",
+      "position": [
+        -9.54868104587113,
+        0.3,
+        -4.917525553339464
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.54868104587113, 0.3, -4.917525553339464; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-4",
+      "parent": "fan-left",
+      "name": "Blade proxy 5",
+      "category": "Fan blade",
+      "position": [
+        -9.859960483097549,
+        0.3,
+        -4.717478406039127
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.859960483097549, 0.3, -4.717478406039127; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-5",
+      "parent": "fan-left",
+      "name": "Blade proxy 6",
+      "category": "Fan blade",
+      "position": [
+        -10.214990710244729,
+        0.3,
+        -4.613232125554788
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.214990710244729, 0.3, -4.613232125554788; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-6",
+      "parent": "fan-left",
+      "name": "Blade proxy 7",
+      "category": "Fan blade",
+      "position": [
+        -10.585009289755272,
+        0.3,
+        -4.613232125554788
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.585009289755272, 0.3, -4.613232125554788; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-7",
+      "parent": "fan-left",
+      "name": "Blade proxy 8",
+      "category": "Fan blade",
+      "position": [
+        -10.940039516902452,
+        0.3,
+        -4.717478406039127
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.940039516902452, 0.3, -4.717478406039127; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-8",
+      "parent": "fan-left",
+      "name": "Blade proxy 9",
+      "category": "Fan blade",
+      "position": [
+        -11.251318954128871,
+        0.3,
+        -4.917525553339464
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.251318954128871, 0.3, -4.917525553339464; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-9",
+      "parent": "fan-left",
+      "name": "Blade proxy 10",
+      "category": "Fan blade",
+      "position": [
+        -11.493629592680536,
+        0.3,
+        -5.197166937307724
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.493629592680536, 0.3, -5.197166937307724; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-10",
+      "parent": "fan-left",
+      "name": "Blade proxy 11",
+      "category": "Fan blade",
+      "position": [
+        -11.647340865698848,
+        0.3,
+        -5.533747676106142
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.647340865698848, 0.3, -5.533747676106142; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-11",
+      "parent": "fan-left",
+      "name": "Blade proxy 12",
+      "category": "Fan blade",
+      "position": [
+        -11.700000000000001,
+        0.3,
+        -5.9
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.700000000000001, 0.3, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-12",
+      "parent": "fan-left",
+      "name": "Blade proxy 13",
+      "category": "Fan blade",
+      "position": [
+        -11.647340865698848,
+        0.3,
+        -6.266252323893859
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.647340865698848, 0.3, -6.266252323893859; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-13",
+      "parent": "fan-left",
+      "name": "Blade proxy 14",
+      "category": "Fan blade",
+      "position": [
+        -11.493629592680536,
+        0.3,
+        -6.6028330626922775
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.493629592680536, 0.3, -6.6028330626922775; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-14",
+      "parent": "fan-left",
+      "name": "Blade proxy 15",
+      "category": "Fan blade",
+      "position": [
+        -11.251318954128871,
+        0.3,
+        -6.882474446660536
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -11.251318954128871, 0.3, -6.882474446660536; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-15",
+      "parent": "fan-left",
+      "name": "Blade proxy 16",
+      "category": "Fan blade",
+      "position": [
+        -10.940039516902454,
+        0.3,
+        -7.082521593960874
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.940039516902454, 0.3, -7.082521593960874; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-16",
+      "parent": "fan-left",
+      "name": "Blade proxy 17",
+      "category": "Fan blade",
+      "position": [
+        -10.585009289755272,
+        0.3,
+        -7.186767874445213
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.585009289755272, 0.3, -7.186767874445213; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-17",
+      "parent": "fan-left",
+      "name": "Blade proxy 18",
+      "category": "Fan blade",
+      "position": [
+        -10.21499071024473,
+        0.3,
+        -7.186767874445213
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -10.21499071024473, 0.3, -7.186767874445213; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-18",
+      "parent": "fan-left",
+      "name": "Blade proxy 19",
+      "category": "Fan blade",
+      "position": [
+        -9.859960483097547,
+        0.3,
+        -7.082521593960874
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.859960483097547, 0.3, -7.082521593960874; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-19",
+      "parent": "fan-left",
+      "name": "Blade proxy 20",
+      "category": "Fan blade",
+      "position": [
+        -9.54868104587113,
+        0.3,
+        -6.882474446660536
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.54868104587113, 0.3, -6.882474446660536; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-20",
+      "parent": "fan-left",
+      "name": "Blade proxy 21",
+      "category": "Fan blade",
+      "position": [
+        -9.306370407319465,
+        0.3,
+        -6.602833062692278
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.306370407319465, 0.3, -6.602833062692278; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-left-blade-21",
+      "parent": "fan-left",
+      "name": "Blade proxy 22",
+      "category": "Fan blade",
+      "position": [
+        -9.152659134301153,
+        0.3,
+        -6.266252323893859
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position -9.152659134301153, 0.3, -6.266252323893859; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-0",
+      "parent": "fan-right",
+      "name": "Blade proxy 1",
+      "category": "Fan blade",
+      "position": [
+        11.700000000000001,
+        0.3,
+        -5.9
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.700000000000001, 0.3, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-1",
+      "parent": "fan-right",
+      "name": "Blade proxy 2",
+      "category": "Fan blade",
+      "position": [
+        11.647340865698848,
+        0.3,
+        -5.533747676106142
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.647340865698848, 0.3, -5.533747676106142; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-2",
+      "parent": "fan-right",
+      "name": "Blade proxy 3",
+      "category": "Fan blade",
+      "position": [
+        11.493629592680536,
+        0.3,
+        -5.197166937307723
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.493629592680536, 0.3, -5.197166937307723; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-3",
+      "parent": "fan-right",
+      "name": "Blade proxy 4",
+      "category": "Fan blade",
+      "position": [
+        11.251318954128871,
+        0.3,
+        -4.917525553339464
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.251318954128871, 0.3, -4.917525553339464; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-4",
+      "parent": "fan-right",
+      "name": "Blade proxy 5",
+      "category": "Fan blade",
+      "position": [
+        10.940039516902452,
+        0.3,
+        -4.717478406039127
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.940039516902452, 0.3, -4.717478406039127; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-5",
+      "parent": "fan-right",
+      "name": "Blade proxy 6",
+      "category": "Fan blade",
+      "position": [
+        10.585009289755272,
+        0.3,
+        -4.613232125554788
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.585009289755272, 0.3, -4.613232125554788; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-6",
+      "parent": "fan-right",
+      "name": "Blade proxy 7",
+      "category": "Fan blade",
+      "position": [
+        10.214990710244729,
+        0.3,
+        -4.613232125554788
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.214990710244729, 0.3, -4.613232125554788; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-7",
+      "parent": "fan-right",
+      "name": "Blade proxy 8",
+      "category": "Fan blade",
+      "position": [
+        9.859960483097549,
+        0.3,
+        -4.717478406039127
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.859960483097549, 0.3, -4.717478406039127; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-8",
+      "parent": "fan-right",
+      "name": "Blade proxy 9",
+      "category": "Fan blade",
+      "position": [
+        9.54868104587113,
+        0.3,
+        -4.917525553339464
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.54868104587113, 0.3, -4.917525553339464; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-9",
+      "parent": "fan-right",
+      "name": "Blade proxy 10",
+      "category": "Fan blade",
+      "position": [
+        9.306370407319465,
+        0.3,
+        -5.197166937307724
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.306370407319465, 0.3, -5.197166937307724; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-10",
+      "parent": "fan-right",
+      "name": "Blade proxy 11",
+      "category": "Fan blade",
+      "position": [
+        9.152659134301153,
+        0.3,
+        -5.533747676106142
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.152659134301153, 0.3, -5.533747676106142; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-11",
+      "parent": "fan-right",
+      "name": "Blade proxy 12",
+      "category": "Fan blade",
+      "position": [
+        9.1,
+        0.3,
+        -5.9
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.1, 0.3, -5.9; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-12",
+      "parent": "fan-right",
+      "name": "Blade proxy 13",
+      "category": "Fan blade",
+      "position": [
+        9.152659134301153,
+        0.3,
+        -6.266252323893859
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.152659134301153, 0.3, -6.266252323893859; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-13",
+      "parent": "fan-right",
+      "name": "Blade proxy 14",
+      "category": "Fan blade",
+      "position": [
+        9.306370407319465,
+        0.3,
+        -6.6028330626922775
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.306370407319465, 0.3, -6.6028330626922775; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-14",
+      "parent": "fan-right",
+      "name": "Blade proxy 15",
+      "category": "Fan blade",
+      "position": [
+        9.54868104587113,
+        0.3,
+        -6.882474446660536
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.54868104587113, 0.3, -6.882474446660536; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-15",
+      "parent": "fan-right",
+      "name": "Blade proxy 16",
+      "category": "Fan blade",
+      "position": [
+        9.859960483097547,
+        0.3,
+        -7.082521593960874
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 9.859960483097547, 0.3, -7.082521593960874; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-16",
+      "parent": "fan-right",
+      "name": "Blade proxy 17",
+      "category": "Fan blade",
+      "position": [
+        10.214990710244729,
+        0.3,
+        -7.186767874445213
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.214990710244729, 0.3, -7.186767874445213; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-17",
+      "parent": "fan-right",
+      "name": "Blade proxy 18",
+      "category": "Fan blade",
+      "position": [
+        10.58500928975527,
+        0.3,
+        -7.186767874445213
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.58500928975527, 0.3, -7.186767874445213; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-18",
+      "parent": "fan-right",
+      "name": "Blade proxy 19",
+      "category": "Fan blade",
+      "position": [
+        10.940039516902454,
+        0.3,
+        -7.082521593960874
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 10.940039516902454, 0.3, -7.082521593960874; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-19",
+      "parent": "fan-right",
+      "name": "Blade proxy 20",
+      "category": "Fan blade",
+      "position": [
+        11.251318954128871,
+        0.3,
+        -6.882474446660536
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.251318954128871, 0.3, -6.882474446660536; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-20",
+      "parent": "fan-right",
+      "name": "Blade proxy 21",
+      "category": "Fan blade",
+      "position": [
+        11.493629592680536,
+        0.3,
+        -6.602833062692278
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.493629592680536, 0.3, -6.602833062692278; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    },
+    {
+      "id": "fan-right-blade-21",
+      "parent": "fan-right",
+      "name": "Blade proxy 22",
+      "category": "Fan blade",
+      "position": [
+        11.647340865698848,
+        0.3,
+        -6.266252323893859
+      ],
+      "size": [
+        1.05,
+        0.06,
+        0.18
+      ],
+      "color": "#77828b",
+      "function": "Moves air through the impeller when the fan rotates.",
+      "engineer": "Moves air through the impeller when the fan rotates.",
+      "specs": "22 representative blades per rendered fan. Actual blade count, profile and handedness unknown.",
+      "confidence": "illustrative",
+      "geometry": "Tier 3 · illustrative",
+      "source": "battery",
+      "location": "Conceptual position 11.647340865698848, 0.3, -6.266252323893859; +X right, +Y up, −Z rear, viewed from keyboard side.",
+      "repair": "Consult the exact A2251 service guide. This model is not a repair procedure.",
+      "shape": "blade"
+    }
+  ]
+}

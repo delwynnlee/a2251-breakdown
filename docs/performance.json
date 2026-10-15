@@ -1,0 +1,36 @@
+{
+  "recorded": "2026-10-14T08:29:47.105Z",
+  "viewport": "1440 x 960",
+  "quality": "Low",
+  "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+  "environment": "Cloud Chromium software WebGL; not target-hardware performance",
+  "results": [
+    {
+      "mode": "Closed exterior",
+      "samples": [
+        "17 fps · 35 draws · 11.8k tris",
+        "18 fps · 35 draws · 11.8k tris",
+        "17 fps · 35 draws · 11.8k tris",
+        "15 fps · 35 draws · 11.8k tris"
+      ]
+    },
+    {
+      "mode": "Open X-ray",
+      "samples": [
+        "11 fps · 74 draws · 23.6k tris",
+        "11 fps · 74 draws · 23.6k tris",
+        "10 fps · 74 draws · 23.6k tris",
+        "10 fps · 74 draws · 23.6k tris"
+      ]
+    },
+    {
+      "mode": "Exploded thermal",
+      "samples": [
+        "10 fps · 84 draws · 23.7k tris",
+        "11 fps · 84 draws · 23.7k tris",
+        "12 fps · 84 draws · 23.7k tris",
+        "13 fps · 84 draws · 23.7k tris"
+      ]
+    }
+  ]
+}
